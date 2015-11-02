@@ -1,0 +1,19 @@
+{
+  "name": "find-data",
+  "version": "1.0.0",
+  "description": "This will search for data in a given object and return the object filtered with only matching data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ofersadgat/find-data.git"
+  },
+  "author": "Ofer Sadgat",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/ofersadgat/find-data/issues"
+  },
+  "homepage": "https://github.com/ofersadgat/find-data#readme"
+}
