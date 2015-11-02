@@ -4,6 +4,7 @@ This is useful when you are working with a poorly documented API and want to fin
 
 Examples:
 
+```javascript
 var a = {
 	hello: {
 		best: [
@@ -26,7 +27,11 @@ var a = {
 };
 
 console.log(JSON.stringify(find('friend', a), null, 2));
+```
 
+Outputs:
+
+```javascript
 {
 	hello: {
 		best: [
@@ -41,3 +46,4 @@ console.log(JSON.stringify(find('friend', a), null, 2));
 		}
 	}
 };
+```
