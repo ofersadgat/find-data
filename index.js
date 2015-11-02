@@ -8,7 +8,7 @@ var isString = function(arg){
 };
 
 var isObject = function(arg){
-  return typeof(arg) === 'object';
+  return arg && typeof(arg) === 'object';
 };
 
 var isArray = function(arg){
